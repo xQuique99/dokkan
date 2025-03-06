@@ -10,7 +10,7 @@ import {Sql} from "../Backend/sql"
 createRoot(document.getElementById('root')).render(
     <BrowserRouter>
       <Routes>
-        <Route path='/carta' element={<CartasLr />} />
+        <Route path='/dokkan/carta' element={<CartasLr />} />
         <Route path='/cartas' element={<Cartas />} />
         <Route path='/' element={<Sql />} />
       </Routes>
